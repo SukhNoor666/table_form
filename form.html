@@ -1,16 +1,18 @@
 <style>
-    fieldset{
+    fieldset {
         display: flex;
         flex-direction: column;
         width: fit-content;
     }
 
-    input, button {
+    input,
+    button {
         margin: 8px;
         max-width: 200px;
     }
-    button{
-        max-width:100px ;
+
+    button {
+        max-width: 100px;
         margin: 8px;
         float: right;
     }
@@ -24,10 +26,31 @@
 
         <!--- <label for="input"> Enter Text:</label> --->
 
-        <input type="text" placeholder="Username" name="input"/>
-        <input type="text" placeholder="Password" name="input"/>
+        <input type="text" placeholder="Username" name="input" />
+        <input type="text" placeholder="Password" name="input" />
 
         <button>Submit</button>
+
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>Other Input Content</legend>
+        <input type="date" />
+        <input type="number" />
+        <input type="checkbox" />
+        <input type="range" />
+        <input type="email" />
+        <input type="color" />
+        <input type="file" />
+        <input type="radio" />
+
+        <select>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
 
     </fieldset>
 </form>
